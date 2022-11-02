@@ -1,0 +1,67 @@
+body {
+    width: 1000px;
+}
+
+header>h3,h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-planet1 {
+    margin-left: 309px;
+    max-width: 300px;
+}
+
+.img-planet2 {
+    max-width: 400px;
+}
+
+.img-planet3 {
+    margin-left: 473px;
+    max-width: 420px;
+}
+
+.img-planet4 {
+    margin-left: 259px;
+    max-width: 400px;
+}
+
+.img-planet5 {
+    margin-left: 26px;
+    max-width: 866px;
+}
+
+.img-planet6 {
+    margin-left: 54px;
+    max-width: 811px;
+}
+
+.img-planet7 {
+    margin-left: 25px;
+    max-width: 450px;
+}
+
+.img-planet8 {
+    margin-left: 439px;
+    max-width: 454px;
+}
+
+.text-right {
+    display: flex;
+    justify-content: end;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+td {
+    border: 1px solid black;
+    height: 20px;
+}

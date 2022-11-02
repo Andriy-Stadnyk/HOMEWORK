@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(../img/фон.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.hw {
+    width: 100px;
+    height: 200px;
+    text-align: center;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+}
