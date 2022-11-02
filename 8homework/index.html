@@ -10,6 +10,12 @@
 </head>
 <body>
 
+    <!-- Питання:
+    1. Не працюють посилання в header
+    2. Секція services, відображається обрізано
+    3. Колір фото team одразу сірі, як зробити щоб вони спершу були кольорові, а згодом сірі (при виборі одна з них кольорова, а інші сірі) ? 
+    4. Анімація name, заповнюється із бордером (має радіус зверху), і взагалі видно як вона з'являється знизу.-->
+
     <header>
 
         <div class="logo">
@@ -21,17 +27,17 @@
         <div class="nav">
             <ul>
                 <li><a href="#">Appointment</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Team</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
                 <li><a href="#">Reviews</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
 
     </header>
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
 
         <div class="left">
 
@@ -83,7 +89,7 @@
 
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
 
         <div class="circle">
 
@@ -137,7 +143,7 @@
 
     </section>
 
-    <section class="team">
+    <section class="team" id="team">
 
         <div class="title">
             Meet Our Highly Skilled Experts
@@ -178,6 +184,116 @@
             </div>
 
         </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="main-form">
+
+            <div class="form-box">
+                
+                <div class="form-title">
+                    <h1>
+                    Get in touch with Us and send <br>
+                    a Message 
+                    </h1>
+                </div>
+
+                <div class="form">
+
+                    <form>
+
+                        <div class="first-form">
+
+                            <p class="u-name">
+                                <input type="text" placeholder="Name" id="name">
+                            </p>
+
+                            <p class="email">
+                                <input type="email" placeholder="Email" id="email">
+                            </p>
+
+                        </div>
+
+                        <div class="second-form">
+                            <p class="message">
+                                <textarea name="user" cols="30" rows="10" placeholder="Message" maxlength="10" required></textarea>
+                            </p>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="map">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6051.659585837632!2d-73.96138003334352!3d40.677719089076604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b325d552019%3A0x523ad4960a13597d!2s836%20Bergen!5e0!3m2!1suk!2sua!4v1667416034721!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div class="contacts">
+
+                
+                <p>Email : <a href="mailto:kumarpratiyush1405@gmail.com">kumarpratiyush1405@gmail.com</a>
+                </p>
+
+                <p>Phone : <a href="tel:+(972) 723429834">+(972) 723429834</a>
+                </p>
+
+                <p>Headquarters : <a href="https://goo.gl/maps/GByFUw9TGxTyNoZm6" target="_blank">836th Avenue, 3rd Floor, <br>
+                New York, <br>
+                New York</a>
+                </p>
+
+            
+
+            </div>
+
+            <div class="hours">
+                
+                <div class="title-h">Opening Hours</div>
+
+                <div class="sub-h">
+                    Monday - Friday : 10:00 am - 05:00 pm <br>
+                    Saturday : 10:00 am - 02:00 pm
+                </div>
+
+            </div>
+
+            <div class="connect">
+
+                <div class="title-con">
+                    Connect With Us On
+                </div>
+
+                <div>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./img/pngwing 1.png" alt="instagram"></a>
+
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                </div>
+
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./img/pngwing 2.png" alt="facebook"></a>
+
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                </div>
+
+                <div>
+                    <a href="https://twitter.com/"><img src="./img/pngwing 3.png" alt="twitter" target="_blank"></a>
+
+                    <a href="https://twitter.com/" target="_blank">Twitter</a>
+                </div>
+
+            </div>
+
+        </footer>
 
     </section>
 
